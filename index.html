@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
     <link href="./public/css/main.css" rel="stylesheet">
     <title>Esc Change</title>
 </head>
@@ -15,7 +19,7 @@
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">Quem Somos?</a></li>
-                    <li><a href="#services">Novidades</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
                     <li><a href="doe.html" id="doar">Doe Agora</a></li>
                 </ul>
                 <div class="hamburger">
@@ -65,7 +69,6 @@
                 <br/> <br/>
                 Nosso objetivo é impulsionar a transformação, promovendo iniciativas que gerem impacto real. Valorizamos a inclusão, o bem-estar e o crescimento coletivo, e trabalhamos com parceiros que compartilham dessa visão. Juntos, criamos soluções que não apenas resolvem problemas imediatos, mas que também promovem um futuro mais equitativo e sustentável para todos.
             </p>
-            <a href="#" class="link-cta">Saiba Mais</a>
         </div>
     </div>
 
@@ -76,7 +79,6 @@
                 <br/> <br/>
                 Estamos comprometidos em promover mudanças duradouras, que transcendem o presente. Para isso, incorporamos princípios de sustentabilidade em todas as nossas atividades, garantindo que nosso impacto positivo se estenda às futuras gerações. Acreditamos que um desenvolvimento responsável, equilibrado e humano é a chave para um legado transformador.
             </p>
-            <a href="doe.html" class="link-cta">Saiba Mais</a>
         </div>
         <div class="column left-column">
             <img class="img-section-one" src="./public/img/about-1.webp" />
@@ -91,7 +93,6 @@
                     Sempre gostei de estar nos lugares para conhecer famílias que vivem em situação de vulnerabilidades, buscando ajuda e levando a eles conhecimento de cuidar, amar e mostrar que toda situação ruim poderá ser mudada, confiando que eles vão conseguir mudar o modo de viver."</p>
                 <h3>Maria Cristina</h3>
                 <p>MEVAM</p>
-                <a href="/doe" class="doar">Saiba Mais</a>
             </div>
 
             <div class="testimonial">
@@ -99,7 +100,6 @@
                 <p>"A ONG Jardim Mata Virgem tem como missão promover um futuro mais sustentável e oferecer apoio vital a crianças em situação de desnutrição. Estamos empenhados na preservação da natureza, reflorestando áreas degradadas e conscientizando a população sobre a importância da conservação ambiental."</p>
                 <h3>Sonia Almeida</h3>
                 <p>Jardim Mata Virgem</p>
-                <a href="/doe" class="doar">Saiba Mais</a>
             </div>
 
             <div class="testimonial">
@@ -107,21 +107,22 @@
                 <p>"Atuamos especialmente nos bairros mais carentes de São Bernardo do Campo - SP, sempre com o objetivo de fortalecer a cidadania e contribuir para a construção de uma sociedade mais justa e inclusiva. Mas, para continuarmos com essa missão, contamos com o apoio de pessoas como você."</p>
                 <h3>Dra. Camila Silva</h3>
                 <p>Ortopedista</p>
-                <a href="/doe" class="doar">Saiba Mais</a>
             </div>
         </div>
     </section>
     <div id="ongs" class="container title-section"><h3>Ongs</h3></div>
-    <div class="container container-three-columns">
-        <div class="column">
-            <a href="doe.html"><img class="img-ong" src="./public/img/mtv.png" /></a>
+    <div class="container">
+        <div class="carrossel">
+            <div class="carrossel-track">
+                <div class="carrossel-slide"> <a href="doe.html"><img class="img-ong" src="./public/img/mtv.png" alt="Imagem 1"></a></div>
+                <div class="carrossel-slide"> <a href="doe.html"><img class="img-ong" src="./public/img/novageracaomaua.webp" alt="Imagem 2"></a></div>
+                <div class="carrossel-slide"> <a href="doe.html"><img class="img-ong-2" src="./public/img/logo-pequeno-cidadao-horizontal.webp" alt="Imagem 3"></a></div>
+                <!-- Repita as imagens para criar a sensação de infinito -->
+                <div class="carrossel-slide"> <a href="doe.html"><img class="img-ong" src="./public/img/mtv.png" alt="Imagem 1"></a></div>
+                <div class="carrossel-slide"> <a href="doe.html"><img class="img-ong" src="./public/img/novageracaomaua.webp" alt="Imagem 2"></a></div>
+                <div class="carrossel-slide"> <a href="doe.html"><img class="img-ong-2" src="./public/img/logo-pequeno-cidadao-horizontal.webp" alt="Imagem 3"></a></div>
+            </div>
         </div>
-        <div class="column">
-           <a href="doe.html"> <img class="img-ong" src="./public/img/novageracaomaua.webp" /></a>
-        </div>
-        <div class="column">
-            <a href="doe.html"> <img class="img-ong-2" src="./public/img/logo-pequeno-cidadao-horizontal.webp" /></a>
-         </div>
     </div>
     
     <footer class="footer">
@@ -129,6 +130,7 @@
             <img class="img-logo-footer" src="./public/img/logo.svg" />
             <p>A esperança está onde o coração está</p>
             <p>&copy; Copyright. Todos os direitos reservados.</p>
+            <a class="icon-social" href="https://www.instagram.com/escchage"><i class="ri-instagram-line"></i></a>
         </div>
     </footer>
 
